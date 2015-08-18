@@ -1,0 +1,16 @@
+language: c
+before_script:
+- wget https://github.com/jgm/pandoc/releases/download/1.15.0.6/pandoc-1.15.0.6-1-amd64.deb
+- ar vx pandoc-1.15.0.6-1-amd64.deb
+- tar -vzxf data.tar.gz
+- export PATH="$PATH:`pwd`/usr/bin"
+script: make
+addons:
+  apt:
+    packages:
+    - texlive
+    - lmodern
+    - texlive-latex-recommended
+    - wget
+    - tar
+    - gzip
