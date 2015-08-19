@@ -10,6 +10,7 @@ addons:
     packages:
     - texlive
     - lmodern
+    - latex-beamer
     - texlive-latex-recommended
     - wget
     - tar
