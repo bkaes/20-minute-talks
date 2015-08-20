@@ -24,3 +24,4 @@ deploy:
   file: talks.tar.gz
   on:
     repo: bkaes/20-minute-talks
+    tags: true
