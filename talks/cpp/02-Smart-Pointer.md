@@ -44,6 +44,7 @@ Standardbibliothek liefert `std::unique_ptr<T>` und `std::shared_ptr<T>`.
 - hat dieselbe Größe wie `T*`,
 - hat (abgesehen von Dekonstruktor) selbe Performanz wie `T*`.
 - Modelliert exklusiven Besitz.
+- Ausnahmensichere Erstellung durch `std::make_unique` (C++14)
 
 ## Widget repariert
 
@@ -66,6 +67,7 @@ private:
 - ist größer als `T*`,
 - hat (abgesehen von Dekonstruktor) selbe Performanz wie `T*`.
 - Modelliert _geteilten_ Besitz.
+- Ausnahmensichere Erstellung durch `std::make_shared`
 
 ## Beispiel
 
@@ -79,8 +81,7 @@ struct Widget{
 int main(){
   std::vector<Widget> vec;
   {
-    std::shared_ptr<const BigObject>
-      sptr{new BigObject};
+    auto sptr = std::make_shared<const BigObject>();
     for(int i = 0; i < 100; ++i){
       vec.emplace_back(Widget{sptr});
     }
