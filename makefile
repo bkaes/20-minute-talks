@@ -1,6 +1,6 @@
 PANDOC = pandoc
 PFLAGS = -N -s
-PDFFORMAT=latex
+PDFFORMAT=beamer
 
 MD_FILES   = $(wildcard talks/**/*.md)
 PDF_FILES  = $(addprefix pdf/,$(notdir $(MD_FILES:.md=.pdf)))
