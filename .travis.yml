@@ -23,5 +23,5 @@ deploy:
     secure: LloZd8vmIz12tNoNG3jrPZ/frxk1fyIBGHT794S2J0zY0UXEweppmDMk/8jsFFBNc9sdhm37T5V9dXE6dHIyo3G8wZiujpbD6ysjje63x9VE41YGLboy6bkixxVfb6WJBCsw5FZHzf7PaBPqIYGkXNcYnYIuqoKnfCInUdwuXW7FtQGLusG5f6KnGObUT0vTVHKuQI8iKABzh2VJshrmXaDBUafTpr2uFHf+whrJIYkzRu9Hc3AMSWhwmE2w+PmfZciWdDie32L+PugfnoM/HgKtuNEPsn0xgKmgfsj8jSl48fXD7vPKAr6UBVyvoOHl+bViDElk5JH8Peuqh054nyeQ2ebCwGeGj70Vhta/QuznwBdnnSH59ygByV9XhSEmxhC7w92Fqy45Fps/+P1sNBsnKzVCbuj+mFxyuHZGIiwEKq0wI+z3ZQOYX4l6ViWQWhLLDFIUdw3NGLka5SuayFSMz08GEh/2Rk1A+I7BIkN5h7TbMBEX3KIj9c7lTslk8IMPnwrfbICJF+X/wZcoFKL0dxIX4A5dGdwPwVSzAh8a1xswpBgtzy8eU8fnHCsTsavm/l662fAVazgGeJRxhMQ09qroSciWJDlKDR/lVrr2IS7dqG66yhj0bicbAQbAg7D8cZS8SgaQx0y5BB3rOEJrPOvL18HfOzT8pMQj+yg=
   file: talks.tar.gz
   on:
-    repo: bkaes/20-minute-talks
+    repo: bkaestner/20-minuten
     tags: true
