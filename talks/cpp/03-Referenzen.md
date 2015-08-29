@@ -86,8 +86,66 @@ int l = k++;
     int && k = f(); // verlängert Lebensdauer
     ```
 
+# Wie arbeite ich mit RValue-Referenzen?
+
+## Klassen
+Für Klassen ergeben sich neue Operatoren und Konstruktoren:
+
+```cpp
+struct widget{
+  widget();              // Standard-
+  widget(const widget&); // Kopier-
+  widget(widget&&);      // "Move"-Konstruktor
+  widget& operator=(const widget&); // Zuweisungs-
+  widget& operator=(widget&&);      // Move-Operator
+}
+```
+
+## Funktionen
+Funktionen können über ihr Interface jetzt direkt bekanntgeben, dass
+sie Besitztum erwarten:
+
+```cpp
+void f(widget &&);
+
+widget w;
+f(w);        // kompiliert nicht!
+f(widget{}); // kompiliert, temporäres widget=rvalue
+f(std::move(w)); // kompiliert
+```
+Nach `std::move(w)` befindet sich `w` in einem nicht-gültigen Zustand
+und muss neu initialisiert werden:
+
+```cpp
+w = widget{};
+```
+
+## Templates
+Bei Templates sieht die Sache dank "Universal References" ein wenig
+anders aus:
+
+```cpp
+template <class T>
+void f(T && k){
+  // was ist k?
+}
+```
+`k` ist entweder lvalue-Referenz (`T&`) oder rvalue-Referenz (`T&&`),
+je nachdem, mit was ich die Funktion aufrufe. Siehe auch Scott Meyers'
+Vortrag.
+
+# Übungsaufgaben
+## Überprüfen Sie Ihren eigenen Code
+Letzte Woche hatten Sie die Aufgabe, Ihren eigenen Code zu prüfen.
+Ermitteln Sie Stellen, an denen Sie eigentlich Werte _verschieben_
+wollen, und überlegen Sie, ob an diesen Stellen `move` und `T&&`
+angebracht wäre.
+
+Verbieten Sie außerdem Move- oder Kopieroperationen durch löschen von
+Konstruktoren.
+
 ## Weiterführende Links
 
 - `std::move`: http://en.cppreference.com/w/cpp/utility/move
 - Value categories: http://en.cppreference.com/w/cpp/language/value_category
-
+- Universal references: https://channel9.msdn.com/Shows/Going+Deep/Cpp-and-Beyond-2012-Scott-Meyers-Universal-References-in-Cpp11
