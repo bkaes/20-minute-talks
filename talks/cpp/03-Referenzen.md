@@ -43,9 +43,9 @@ int main(){
 }
 ```
 
-# Was macht `move`?
+# Verschieben
 
-## `move` ist einfach
+## Was ist `move`?
 
 Es ist nichts weiter als ein Cast nach `T&&`:
 
@@ -57,6 +57,34 @@ typename std::remove_reference<T>::type&& move( T&& t );
 ## Was ist `T&&`?
 
 `T&&` ist eine rvalue-Referenz.
+
+## OK, was ist ein rvalue?
+Ein rvalue ist ein Ausdruck der keine Identität hat (prvalue) und von
+dem man verschieben kann.
+
+Der Name stammt davon, dass rvalues in der Regel auf der
+_rechten_ Seite des Zuweisungsoperators stehen:
+
+```cpp
+int f();
+
+int k = f();
+//     ^^^^ rvalue
+//     vvvv rvalue
+int l = k++;
+```
+
+## Eigenschaften von RValues
+- dürfen nicht auf der linken Seite des Zuweisungsoperators stehen
+- der Addressoperator (`&`) kann nicht auf sie angewendet werden
+- ... es sei denn dies geschieht indirekt über eine `const T&`:
+    ```cpp
+    const int & k = f(); // verlängert Lebensdauer
+    ```
+- ... oder dies geschieht über eine `T&&`:
+    ```cpp
+    int && k = f(); // verlängert Lebensdauer
+    ```
 
 ## Weiterführende Links
 
