@@ -1,3 +1,6 @@
+# 20-Minuten-Vorträge [![Build Status](https://travis-ci.org/bkaestner/20-minuten.svg?branch=master)](https://travis-ci.org/bkaestner/20-minuten)
+
+
 Hier sammel ich ein paar Vorträge zu diversen Themen. Die Vorträge sind auf
 ungefähr 20 Minuten ausgelegt, zusammen mit dem Frageteil hat man etwa 30
 Minuten Programm, die Übungsaufgaben sind, je nach eigenem Wissenstand, auf
