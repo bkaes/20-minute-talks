@@ -51,7 +51,11 @@ Es ist nichts weiter als ein Cast nach `T&&`:
 
 ```cpp
 template< class T >
-typename std::remove_reference<T>::type&& move( T&& t );
+typename remove_reference<T>::type&& move( T&& t ){
+  return static_cast<
+    typename remove_reference<T>::type&&
+    >(t);
+};
 ```
 
 ## Was ist `T&&`?
@@ -76,12 +80,12 @@ int l = k++;
 
 ## Eigenschaften von RValues
 - dürfen nicht auf der linken Seite des Zuweisungsoperators stehen
-- der Addressoperator (`&`) kann nicht auf sie angewendet werden
+- der Adressierungsoperator (`&`) kann nicht auf sie angewendet werden
 - ... es sei denn dies geschieht indirekt über eine `const T&`:
     ```cpp
     const int & k = f(); // verlängert Lebensdauer
     ```
-- ... oder dies geschieht über eine `T&&`:
+- ... oder dies geschieht über eine rvalue-Referenz `T&&`:
     ```cpp
     int && k = f(); // verlängert Lebensdauer
     ```
