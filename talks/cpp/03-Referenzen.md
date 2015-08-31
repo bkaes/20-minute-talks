@@ -1,7 +1,7 @@
 ---
-title: Referenzen
+title: RValue-Referenzen
 author: Benjamin Kästner <benjamin.kaestner@gmail.com>
-date: 24.08.2015
+date: 31.08.2015
 links-as-notes: true
 ---
 # Arbeiten mit `unique_ptr`
@@ -43,7 +43,7 @@ int main(){
 }
 ```
 
-# Verschieben
+# Verschieben?
 
 ## Was ist `move`?
 
@@ -60,21 +60,22 @@ typename remove_reference<T>::type&& move( T&& t ){
 
 ## Was ist `T&&`?
 
-`T&&` ist eine rvalue-Referenz.
+`T&&` ist eine RValue-Referenz.
 
-## OK, was ist ein rvalue?
-Ein rvalue ist ein Ausdruck der keine Identität hat (prvalue) und von
+## Was ist ein RValue?
+
+Ein RValue ist ein Ausdruck der keine Identität hat (pRValue) und von
 dem man verschieben kann.
 
-Der Name stammt davon, dass rvalues in der Regel auf der
+Der Name stammt davon, dass RValues in der Regel auf der
 _rechten_ Seite des Zuweisungsoperators stehen:
 
 ```cpp
 int f();
 
 int k = f();
-//     ^^^^ rvalue
-//     vvvv rvalue
+//     ^^^^ RValue
+//     vvvv RValue
 int l = k++;
 ```
 
@@ -85,7 +86,7 @@ int l = k++;
     ```cpp
     const int & k = f(); // verlängert Lebensdauer
     ```
-- ... oder dies geschieht über eine rvalue-Referenz `T&&`:
+- ... oder dies geschieht über eine RValue-Referenz `T&&`:
     ```cpp
     int && k = f(); // verlängert Lebensdauer
     ```
@@ -114,7 +115,7 @@ void f(widget &&);
 
 widget w;
 f(w);        // kompiliert nicht!
-f(widget{}); // kompiliert, temporäres widget=rvalue
+f(widget{}); // kompiliert, temporäres widget=RValue
 f(std::move(w)); // kompiliert
 ```
 Nach `std::move(w)` befindet sich `w` in einem nicht-gültigen Zustand
@@ -134,7 +135,7 @@ void f(T && k){
   // was ist k?
 }
 ```
-`k` ist entweder lvalue-Referenz (`T&`) oder rvalue-Referenz (`T&&`),
+`k` ist entweder lvalue-Referenz (`T&`) oder RValue-Referenz (`T&&`),
 je nachdem, mit was ich die Funktion aufrufe. Siehe auch Scott Meyers'
 Vortrag.
 
