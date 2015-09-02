@@ -12,3 +12,11 @@ Laut Wikipedia:
 > Git (engl. _Blödmann_) ist eine freie Software zur verteilten
 > Versionsverwaltung von Dateien, die ursprünglich für die Quellcode-Verwaltung
 > des Linux-Kernels entwickelt wurde.
+
+## Was ist Git nicht
+
+Git ist
+
+- kein Backup-System
+- kein Allheilmittel für Projektstrukturierung
+- nicht frei von Mergekonflikten
