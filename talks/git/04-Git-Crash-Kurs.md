@@ -63,8 +63,11 @@ Changes to be committed:
 ```
 
 ## Änderungen festlegen
+Änderungen, die mit `git add/rm/mv` vorgemerkt wurden, werden mit `git commit` zu einem _Commit_ zusammengefügt:
 ```
 $ git commit
 <es öffnet sich ein Editor zur Eingabe einer Nachricht>
 ```
+
+Jede Änderung, die für sich eine logische Einheit bildet (neue Funktion, Bugfix, Dokumentation) kann ein Commit sein. Ein Commit hat hierbei eine eindeutige ID (`git show`).
 
