@@ -71,3 +71,20 @@ $ git commit
 
 Jede Änderung, die für sich eine logische Einheit bildet (neue Funktion, Bugfix, Dokumentation) kann ein Commit sein. Ein Commit hat hierbei eine eindeutige ID (`git show`).
 
+## Änderungen nachverfolgen
+Mittels `git log` können letzte Änderungen angesehen werden:
+
+```
+$ git log
+commit 430bbbabb752bf1352f6bdf75d29c5f98465ae8c
+Author: Benjamin Kaestner <benjamin.kaestner@gmail.com>
+Date:   Tue Aug 18 20:05:52 2015 +0200
+
+    Add Readme
+
+commit bec9a960e844d186637d3da777e648517b1507db
+Author: Benjamin Kaestner <benjamin.kaestner@gmail.com>
+Date:   Tue Aug 18 19:58:09 2015 +0200
+
+    Add Travis configuration
+```
