@@ -134,3 +134,27 @@ einen (oder zwei) vorangehende Commits:
 
 ![Kind-Vater-Beziehung: ein jeder Commit zeigt auf seinen Vorgänger](talks/git/04-assets/commits.png)
 
+## Was ist ein Zweig?
+Ein Zweig ist im Grunde genommen ein Label, der auf einen Commit zeigt und sich bei einem `git commit` mitbewegt.
+
+## Was ist ein Zweig? (2)
+
+![master branch vor Commit](talks/git/04-assets/branches-01.png)
+
+. . .
+
+![master branch nach Commit](talks/git/04-assets/branches-02.png)
+
+## Informationen über Zweige
+Der Befehl `git branch` zeigt die gegenwärtigen lokalen Zweige und welcher Zweig gerade aktiv ist:
+
+```
+$ git branch
+* git-talk
+  master
+```
+
+In diesem Fall Es gibt zwei Zweige: `git-talk` und `master`. `git-talk` ist aktiv.
+
+## Wechseln zwischen Zweigen
+Um zu einem anderen Zweig zu wechseln, wird `git checkout <branch>` verwendet.
