@@ -35,7 +35,7 @@ Manuelle Alternativen sind fehleranfällig:
 - Team-Arbeit wird durch manuellen Dateiaustausch erschwert.
 
 
-# Arbeiten mit Git
+# Erste Schritte mit Git
 ## Git initialisieren
 Um git verwenden zu können, muss zunächst ein Repository initialisiert oder ein
 vorhandenes geklont werden:
@@ -111,3 +111,26 @@ Date:   Tue Aug 18 19:58:09 2015 +0200
 
     Add Travis configuration
 ```
+
+## Bisherige Zusammenfassung
+
+Befehl     | Wirkung
+-----------|-----------------------------------------
+git add    | Datei(änderungen) hinzufügen (vormerken)
+git rm     | Datei aus git löschen (vormerken)
+git mv     | Datei umbenennen (vormerken)
+-----------|-----------------------------------------
+git status | Status abfragen
+git commit | Vorgemerkte Änderungen in git Speichern
+git log    | Historie der vergangene Commits ansehen
+
+
+# Arbeiten mit Entwicklungszweigen
+## Was ist ein Commit?
+Jeder Commit ist ein Snaphsot des gegenwärtigen Standes. Jeder Commit hat dabei
+einen (oder zwei) vorangehende Commits:
+
+. . .
+
+![Kind-Vater-Beziehung: ein jeder Commit zeigt auf seinen Vorgänger](talks/git/04-assets/commits.png)
+
