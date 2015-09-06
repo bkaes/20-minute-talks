@@ -61,6 +61,8 @@ Das bezieht sich sowohl auf neue, als auch auf alte Dateien. Wenn also `README.m
 Mit `git rm` und `git mv` werden Dateien gelöscht bzw. verschoben.
 
 ## Gegenwärtiger Status
+Mit `git status` wird der gegenwärtige Stand von git angezeigt:
+
 ```
 $ git status
 On branch master
@@ -73,6 +75,7 @@ Changes to be committed:
         new file:   src/util.h
         new file:   src/util.c
 ```
+Git listet hierbei geänderte, neue, unbeobachtete Dateien und ähnliches auf.
 
 ## Änderungen festlegen
 Änderungen, die mit `git add/rm/mv` vorgemerkt wurden, werden mit `git commit` zu einem _Commit_ zusammengefügt:
@@ -82,6 +85,10 @@ $ git commit
 ```
 
 Jede Änderung, die für sich eine logische Einheit bildet (neue Funktion, Bugfix, Dokumentation) kann ein Commit sein. Ein Commit hat hierbei eine eindeutige ID (`git show`).
+
+Alternativ: `git commit -m "Nachricht des Commits"`
+
+Die Nachricht sollte ähnlich gefasst sein wie eine Patch-E-Mail.
 
 ## Änderungen nachverfolgen
 Mittels `git log` können letzte Änderungen angesehen werden:
