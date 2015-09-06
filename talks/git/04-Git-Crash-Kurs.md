@@ -84,6 +84,8 @@ $ git commit
 <es öffnet sich ein Editor zur Eingabe einer Nachricht>
 ```
 
+. . .
+
 Jede Änderung, die für sich eine logische Einheit bildet (neue Funktion, Bugfix, Dokumentation) kann ein Commit sein. Ein Commit hat hierbei eine eindeutige ID (`git show`).
 
 Alternativ: `git commit -m "Nachricht des Commits"`
@@ -92,6 +94,8 @@ Die Nachricht sollte ähnlich gefasst sein wie eine Patch-E-Mail.
 
 ## Änderungen nachverfolgen
 Mittels `git log` können letzte Änderungen angesehen werden:
+
+. . .
 
 ```
 $ git log
