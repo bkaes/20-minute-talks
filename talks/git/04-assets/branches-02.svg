@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="branches-02.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path4009"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3991"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="369.42102"
+     inkscape:cy="728.08756"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3005"
+       transform="translate(-28.284271,-6.9045208)"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:export-xdpi="71"
+       inkscape:export-ydpi="71">
+      <rect
+         y="200.69356"
+         x="43.102665"
+         height="60.480675"
+         width="190.79036"
+         id="rect3003"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12847781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2987"
+         y="245.25031"
+         x="55.558392"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan2991"
+           y="245.25031"
+           x="55.558392"
+           sodipodi:role="line">Commit 1</tspan></text>
+    </g>
+    <g
+       id="g3029"
+       transform="translate(-31.819778,-6.9045208)"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:export-xdpi="71"
+       inkscape:export-ydpi="71">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12847781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect3012"
+         width="190.79036"
+         height="60.480675"
+         x="309.78293"
+         y="200.69356" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="322.23865"
+         y="245.25031"
+         id="text3014"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="322.23865"
+           y="245.25031"
+           id="tspan3016">Commit 2</tspan></text>
+    </g>
+    <g
+       transform="translate(498.00518,-6.9045208)"
+       id="g3018"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:export-xdpi="71"
+       inkscape:export-ydpi="71">
+      <rect
+         y="200.69356"
+         x="43.102665"
+         height="60.480675"
+         width="190.79036"
+         id="rect3020"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12847781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3022"
+         y="245.25031"
+         x="55.558392"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan3024"
+           y="245.25031"
+           x="55.558392"
+           sodipodi:role="line">Commit 3</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.78167379px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 266.28943,223.99799 -53.77824,0"
+       id="path3034"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:export-xdpi="71"
+       inkscape:export-ydpi="71" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4798"
+       d="m 529.93924,223.99799 -53.77824,0"
+       style="fill:none;stroke:#000000;stroke-width:1.78167379px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:export-xdpi="71"
+       inkscape:export-ydpi="71" />
+    <rect
+       y="63.479359"
+       x="541.10785"
+       height="60.480675"
+       width="190.79036"
+       id="rect4836"
+       style="fill:#5aff9c;fill-opacity:1;stroke:#000000;stroke-width:1.12847780999999990;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;opacity:0.17845118"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:export-xdpi="71"
+       inkscape:export-ydpi="71" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4838"
+       y="108.0361"
+       x="573.75891"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;opacity:0.17845118"
+       xml:space="preserve"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:export-xdpi="71"
+       inkscape:export-ydpi="71"><tspan
+         id="tspan4840"
+         y="108.0361"
+         x="573.75891"
+         sodipodi:role="line">master</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.86406851000000010px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend);opacity:0.17845118"
+       d="m 636.50303,133.5554 0,43.58265"
+       id="path4863"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:export-xdpi="71"
+       inkscape:export-ydpi="71" />
+    <g
+       inkscape:export-ydpi="71"
+       inkscape:export-xdpi="71"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       id="g5063"
+       transform="translate(760.64484,-6.9045208)">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.12847781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect5065"
+         width="190.79036"
+         height="60.480675"
+         x="43.102665"
+         y="200.69356" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="55.558392"
+         y="245.25031"
+         id="text5067"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="55.558392"
+           y="245.25031"
+           id="tspan5069">Commit 4</tspan></text>
+    </g>
+    <path
+       inkscape:export-ydpi="71"
+       inkscape:export-xdpi="71"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       style="fill:none;stroke:#000000;stroke-width:1.78167379px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 792.5789,223.99799 -53.77824,0"
+       id="path5071"
+       inkscape:connector-curvature="0" />
+    <rect
+       inkscape:export-ydpi="71"
+       inkscape:export-xdpi="71"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       style="fill:#5aff9c;fill-opacity:1;stroke:#000000;stroke-width:1.12847781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect5073"
+       width="190.79036"
+       height="60.480675"
+       x="813.84906"
+       y="63.479359" />
+    <text
+       inkscape:export-ydpi="71"
+       inkscape:export-xdpi="71"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="846.50012"
+       y="108.0361"
+       id="text5075"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="846.50012"
+         y="108.0361"
+         id="tspan5077">master</tspan></text>
+    <path
+       inkscape:export-ydpi="71"
+       inkscape:export-xdpi="71"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:connector-curvature="0"
+       id="path5079"
+       d="m 909.24422,133.5554 0,43.58265"
+       style="fill:none;stroke:#000000;stroke-width:1.86406851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+  </g>
+</svg>
