@@ -114,15 +114,15 @@ Date:   Tue Aug 18 19:58:09 2015 +0200
 
 ## Bisherige Zusammenfassung
 
-Befehl     | Wirkung
------------|-----------------------------------------
-git add    | Datei(änderungen) hinzufügen (vormerken)
-git rm     | Datei aus git löschen (vormerken)
-git mv     | Datei umbenennen (vormerken)
------------|-----------------------------------------
-git status | Status abfragen
-git commit | Vorgemerkte Änderungen in git Speichern
-git log    | Historie der vergangene Commits ansehen
+Befehl       | Wirkung
+-------------|-----------------------------------------
+`git add`    | Datei(änderungen) hinzufügen (vormerken)
+`git rm`     | Datei aus git löschen (vormerken)
+`git mv`     | Datei umbenennen (vormerken)
+-------------|-----------------------------------------
+`git status` | Status abfragen
+`git commit` | Vorgemerkte Änderungen in git Speichern
+`git log`    | Historie der vergangene Commits ansehen
 
 
 # Arbeiten mit Entwicklungszweigen
@@ -186,11 +186,20 @@ zusammengefasst werden.
 
 ## Bisherige Zusammenfassung
 
-Befehl     | Wirkung
------------|-----------------------------------------
-`git branch`         | Branches anzeigen
-`git branch name`    | Neuen Branch `name` erzeugen
-`git branch -d name` | Branch `name` löschen
----------------------|-----------------------------------------
-git checkout name    | Auf Branch `name` wechseln
-git checkout -b name | Branch `name` erstellen und auf ihn wechseln.
+Befehl                 | Wirkung
+-----------------------|-----------------------------------------
+`git branch`           | Branches anzeigen
+`git branch name`      | Neuen Branch `name` erzeugen
+`git branch -d name`   | Branch `name` löschen
+-----------------------|-----------------------------------------
+`git checkout name`    | Auf Branch `name` wechseln
+`git checkout -b name` | Branch `name` erstellen und auf ihn wechseln.
+
+# Zweige zusammenführen
+## Merge
+Um Zweige zusammenzuführen verwendet man `git merge`:
+
+```
+$ git checkout <zielbranch>
+$ git merge <branch-mit-aenderungen>
+```
