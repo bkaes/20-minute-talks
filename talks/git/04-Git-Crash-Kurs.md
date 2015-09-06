@@ -26,8 +26,20 @@ Git ist
 - kein Backup-System
 - kein Allheilmittel für Projektstrukturierung
 
+## Warum Versionsverwaltung?
+
+Manuelle Alternativen sind fehleranfällig:
+
+- Backup-Verzeichnisse (`project-2015-08-12-bak/`) geben keine Auskunft darüber, welchen Stand sie (abgesehen von ihrer Zeit) haben.
+- Dateinamensendungen wie `_rev1`, `_v2` oder ähnlich geben keine Auskunft, ob `_v2` experimentell war, und ob `_v3` oder `_v4` getestet wurde.
+- Team-Arbeit wird durch manuellen Dateiaustausch erschwert.
+
+
 # Arbeiten mit Git
 ## Git initialisieren
+Um git verwenden zu können, muss zunächst ein Repository initialisiert oder ein
+vorhandenes geklont werden:
+
 ```
 $ cd path/to/project
 $ git init
