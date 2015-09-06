@@ -157,4 +157,40 @@ $ git branch
 In diesem Fall Es gibt zwei Zweige: `git-talk` und `master`. `git-talk` ist aktiv.
 
 ## Wechseln zwischen Zweigen
-Um zu einem anderen Zweig zu wechseln, wird `git checkout <branch>` verwendet.
+Um zu einem anderen Zweig zu wechseln, wird `git checkout <branch>` verwendet:
+
+```
+$ git checkout master
+Switched to branch master
+
+$ git branch
+  git-talk
+* master
+```
+
+## Neuen Zweig erstellen
+Um einen neuen Zweig zu erstellen, wird `git branch <name>` verwendet:
+
+```
+$ git branch temp
+$ git branch
+  git-talk
+* master
+  temp
+```
+Um im neuen Zweig zu arbeiten kann `git checkout <name>` verwendete werden. Alternativ können diese Aktionen über
+```
+git checkout -b <neuer-zweig>
+```
+zusammengefasst werden.
+
+## Bisherige Zusammenfassung
+
+Befehl     | Wirkung
+-----------|-----------------------------------------
+`git branch`         | Branches anzeigen
+`git branch name`    | Neuen Branch `name` erzeugen
+`git branch -d name` | Branch `name` löschen
+---------------------|-----------------------------------------
+git checkout name    | Auf Branch `name` wechseln
+git checkout -b name | Branch `name` erstellen und auf ihn wechseln.
