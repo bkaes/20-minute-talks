@@ -184,6 +184,17 @@ git checkout -b <neuer-zweig>
 ```
 zusammengefasst werden.
 
+## Beispiel
+```
+$ git checkout -b fancy-feature
+$ <mehrere commits>
+```
+
+. . .
+
+![Tree nach Branching und Commits](talks/git/04-assets/branches-03.png)
+
+
 ## Bisherige Zusammenfassung
 
 Befehl                 | Wirkung
