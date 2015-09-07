@@ -202,9 +202,18 @@ $ git checkout <zielbranch>
 $ git merge <branch-mit-aenderungen>
 ```
 
+## Merge-Beispiel
+```
+$ git checkout master
+$ git merge fancy-feature
+```
+
+. . .
+
+![Tree nach Merge und Commits](talks/git/04-assets/branches-04.png)
+
 
 ## Bisherige Zusammenfassung
-
 Befehl                 | Wirkung
 -----------------------|-----------------------------------------
 `git branch`           | Branches anzeigen
@@ -212,5 +221,36 @@ Befehl                 | Wirkung
 `git branch -d name`   | Branch `name` löschen
 -----------------------|-----------------------------------------
 `git checkout name`    | Auf Branch `name` wechseln
-`git checkout -b name` | Branch `name` erstellen und auf ihn wechseln.
+`git checkout -b name` | Branch `name` erstellen und auf ihn wechseln
+-----------------------|-----------------------------------------
+`git merge name`       | Commits von Branch `name` zusammenführen
 
+
+# Übungsaufgaben
+## Überprüfen Sie Ihre gegenwärtige Versionskontrolle
+Verwenden Sie gegenwärtig `_v2` oder ähnliche Konstrukte? Hatten Sie damit mehr
+als einmal Probleme? Verwenden Sie kein anderes SCM? Dann installieren Sie git.
+
+Für binäre Dateien (Word, Excel, Bilder, PDF etc.) ist git eher nicht geeignet,
+es ist dennoch möglich. Allerdings bringen Word und Excel ihre eigene
+Änderungsverfolgung, und der LaTeX-Quellcode einer PDF kann ohne Probleme von
+git verwaltet werden.
+
+## Installieren Sie git
+Unter den meisten Linux-Distributionen ist git vorinstalliert. Unter Windows
+muss selbst Hand angelegt werden. Anleitungen für Windows, Mac OS X und Linux
+finden Sie auf http://git-scm.com/.
+
+## Arbeiten Sie eine Woche lang mit git
+Stellen Sie ein bereits bestehendes oder ein neues Projekt unter git. Verwenden
+Sie zur Verwaltung die Befehle `init`, `add`, `rm`, `mv`, `branch`, `merge`,
+`checkout` und `commit`.
+
+. . .
+
+Lesen Sie bei Fragen die Dokumentation: `git <befehl> --help` öffnet unter Linux
+eine man-Page, unter Windows den Webbrowser mit zusätzlichen Informationen.
+
+. . .
+
+Werden Sie in dieser Woche mit git vertraut, zumindest auf lokaler Basis.
