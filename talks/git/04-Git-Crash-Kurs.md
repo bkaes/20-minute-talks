@@ -194,6 +194,14 @@ $ <mehrere commits>
 
 ![Tree nach Branching und Commits](talks/git/04-assets/branches-03.png)
 
+## Merge
+Um Zweige zusammenzuführen verwendet man `git merge`:
+
+```
+$ git checkout <zielbranch>
+$ git merge <branch-mit-aenderungen>
+```
+
 
 ## Bisherige Zusammenfassung
 
@@ -206,11 +214,3 @@ Befehl                 | Wirkung
 `git checkout name`    | Auf Branch `name` wechseln
 `git checkout -b name` | Branch `name` erstellen und auf ihn wechseln.
 
-# Zweige zusammenführen
-## Merge
-Um Zweige zusammenzuführen verwendet man `git merge`:
-
-```
-$ git checkout <zielbranch>
-$ git merge <branch-mit-aenderungen>
-```
