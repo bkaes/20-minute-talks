@@ -1,7 +1,7 @@
 ---
 title: Git-Crash-Kurs
 author: Benjamin Kästner <benjamin.kaestner@gmail.com>
-date: 6.9.2015
+date: 7.9.2015
 links-as-notes: true
 ---
 # Git
