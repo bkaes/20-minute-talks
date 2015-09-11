@@ -45,7 +45,8 @@ show     | Informationen zu einer Referenz anzeigen
 ## Ein Projekt klonen
 Ein bereits bestehendes Projekt wird mittels `git clone URI` geklont, beispielsweise
 
-```
+
+```bash
 $ git clone https://github.com/bkaestner/20-minuten
 $ cd some/path
 $ git clone path/to/repo
@@ -63,7 +64,8 @@ Diese Schritte sind _nicht_ notwendig, falls das Projekt geklont wurde.
 ## Änderungen abrufen
 Mittels `git fetch <remote>` werden Änderungen abgerufen:
 
-```
+
+```bash
 $ git fetch
 From gitlab.fhrel.fgan.de:kaestner/20-minuten
 
