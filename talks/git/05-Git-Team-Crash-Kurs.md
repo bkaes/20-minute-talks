@@ -108,7 +108,23 @@ $ git push -u origin git-talk-02
 ```
 ## Zusammenfassung der Befehle
 
+Befehl   | Effekt
+---------|---------------------------------
+fetch    | Commits herunterladen
+pull     | fetch + merge
+push     | Änderungen verteilen
+remote   | Entfernte Repositories verwalten
+
+
+# Übungsaufgaben
 ## Eigene Projekte auf GitLab, Gitolite oder ähnlichem einpflegen
+
+Letzte Woche hatten Sie die Aufgabe, ein Woche lang mit git zu arbeiten.
+Verteilen Sie Ihr Projekt mittels GitLab oder Gitolite (achten Sie
+hierbei allerdings auf korrekte Zugriffsrechte!).
+
+Beachten Sie, dass die Benutzung externer Services wie GitHub, BitBucket oder
+GitLab.com (nicht gitlab.fhrel.fgan.de) in der Regel nicht zulässig ist.
 
 ## Weitere Ressourcen
 - https://www.atlassian.com/git/tutorials/syncing/git-fetch/
