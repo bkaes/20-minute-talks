@@ -61,6 +61,16 @@ Diese Schritte sind _nicht_ notwendig, falls das Projekt geklont wurde.
    `git remote add <name> <URL>`
 
 ## Änderungen abrufen
+Mittels `git fetch <remote>` werden Änderungen abgerufen:
+
+```
+$ git fetch
+From gitlab.fhrel.fgan.de:kaestner/20-minuten
+
+5fe260f..bd940e5 master -> origin/master
+* [new tag]        talk-04     -> talk-04
+* [new branch]     git-talk-02 -> origin/git-talk-02
+```
 
 ## Änderungen einpflegen
 
