@@ -20,20 +20,20 @@ Git ist
 
 ## Die wichtigsten Befehle
 
-Befehl   | Effekt
----------|---------------------------------
-add      | Änderungen vormerken
-blame    | Autor von Änderungen betrachten
-branch   | Zweiginformationen einholen
-checkout | HEAD auf Referenzen wechseln
-commit   | Vorgemerktes anwenden
-diff     | Änderungen anzeigen
-merge    | Zwei Zweige zusammenführen
-mv       | Umbenennen vormerken
-log      | Änderungsprotokoll einsehen
-rm       | Löschen vormerken
-show     | Informationen zu einer Referenz anzeigen
-tag      | Tags anzeigen oder erstellen
+Befehl     | Effekt
+-----------|---------------------------------
+`add`      | Änderungen vormerken
+`blame`    | Autor von Änderungen betrachten
+`branch`   | Zweiginformationen einholen
+`checkout` | HEAD auf Referenzen wechseln
+`commit`   | Vorgemerktes anwenden
+`diff`     | Änderungen anzeigen
+`merge`    | Zwei Zweige zusammenführen
+`mv`       | Umbenennen vormerken
+`log`      | Änderungsprotokoll einsehen
+`rm`       | Löschen vormerken
+`show`     | Informationen zu einer Referenz anzeigen
+`tag`      | Tags anzeigen oder erstellen
 
 (Referenz: Commit-Hash, Zweig, Tag,…)
 
@@ -108,12 +108,12 @@ $ git push -u origin git-talk-02
 ```
 ## Zusammenfassung der Befehle
 
-Befehl   | Effekt
----------|---------------------------------
-fetch    | Commits herunterladen
-pull     | fetch + merge
-push     | Änderungen verteilen
-remote   | Entfernte Repositories verwalten
+Befehl     | Effekt
+-----------|---------------------------------
+`fetch`    | Commits herunterladen
+`pull`     | fetch + merge
+`push`     | Änderungen verteilen
+`remote`   | Entfernte Repositories verwalten
 
 
 # Übungsaufgaben
