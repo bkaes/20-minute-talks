@@ -83,7 +83,12 @@ $ git merge origin/master # Änderungen mergen
 ```
 
 Da `git fetch` und `git merge` häufig hintereinander ausgeführt werden, gibt es
-den kombinierten Befehl `git pull`.
+den kombinierten Befehl `git pull`:
+
+```bash
+$ git checkout master
+$ git pull origin master # fetch + merge
+```
 
 ## Änderungen verteilen
 
