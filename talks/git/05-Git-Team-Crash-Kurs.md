@@ -32,6 +32,9 @@ merge    | Zwei Zweige zusammenführen
 mv       | Umbenennen vormerken
 log      | Änderungsprotokoll einsehen
 rm       | Löschen vormerken
+show     | Informationen zu einer Referenz anzeigen
+
+(Referenz: Commit-Hash, Zweig, Tag,…)
 
 # Git im Team verwenden
 ## GitLab und Gitolite
