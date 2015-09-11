@@ -54,6 +54,11 @@ Ein URI kann auf lokale Dateien verweisen, oder die Protokolle HTTPS, SSH oder g
 Standardmäßig wird das geklonte Repository in einem neuen Ordner gespeichert.
 
 ## Ein bestehendes Projekt verteilen
+Diese Schritte sind _nicht_ notwendig, falls das Projekt geklont wurde.
+
+1. Unter Gitolite oder GitLab ein Projekt erstellen (lassen).
+2. Git über das entfernte Verzeichnis (*remote*) in Kenntniss setzen:
+   `git remote add <name> <URL>`
 
 ## Änderungen abrufen
 
