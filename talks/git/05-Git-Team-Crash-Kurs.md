@@ -20,6 +20,19 @@ Git ist
 
 ## Die wichtigsten Befehle
 
+Befehl   | Effekt
+---------|---------------------------------
+add      | Änderungen vormerken
+blame    | Autor von Änderungen betrachten
+branch   | Zweiginformationen einholen
+checkout | HEAD auf Referenzen wechseln
+commit   | Vorgemerktes anwenden
+diff     | Änderungen anzeigen
+merge    | Zwei Zweige zusammenführen
+mv       | Umbenennen vormerken
+log      | Änderungsprotokoll einsehen
+rm       | Löschen vormerken
+
 # Git im Team verwenden
 ## GitLab und Gitolite
 
