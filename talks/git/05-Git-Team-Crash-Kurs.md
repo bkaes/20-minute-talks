@@ -33,6 +33,7 @@ mv       | Umbenennen vormerken
 log      | Änderungsprotokoll einsehen
 rm       | Löschen vormerken
 show     | Informationen zu einer Referenz anzeigen
+tag      | Tags anzeigen oder erstellen
 
 (Referenz: Commit-Hash, Zweig, Tag,…)
 
@@ -91,9 +92,21 @@ $ git pull origin master # fetch + merge
 ```
 
 ## Änderungen verteilen
+Änderungen werden mit `git push` an das entfernte Verzeichnis geschickt:
 
-# Übungsaufgaben
-## Dieses Projekt bearbeiten
+```bash
+$ git checkout <branch-name>
+$ git push <remote> <branch-name>
+```
+
+Will man vermeiden, jedes Mal `<remote> <branch-name>` angeben zu müssen, so lässt sich
+mittels `-u` der entfernte Zweig des lokalen einstellen:
+
+```bash
+$ git checkout git-talk-02
+$ git push -u origin git-talk-02
+```
+## Zusammenfassung der Befehle
 
 ## Eigene Projekte auf GitLab, Gitolite oder ähnlichem einpflegen
 
