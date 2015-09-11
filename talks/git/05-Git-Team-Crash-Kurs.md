@@ -37,9 +37,21 @@ show     | Informationen zu einer Referenz anzeigen
 (Referenz: Commit-Hash, Zweig, Tag,…)
 
 # Git im Team verwenden
-## GitLab und Gitolite
+## Entfernte Repositories erstellen
+### GitLab oder Gitolite verwenden
+- GitLab kann selbst eingerichtet werden: https://gitlab.fhrel.fgan.de (Proxy-Ausnahme hinzufügen)
+- Gitolite wird von einem Administrator eingerichtet
 
 ## Ein Projekt klonen
+Ein bereits bestehendes Projekt wird mittels `git clone URI` geklont, beispielsweise
+
+```
+$ git clone https://github.com/bkaestner/20-minuten
+$ cd some/path
+$ git clone path/to/repo
+```
+Ein URI kann auf lokale Dateien verweisen, oder die Protokolle HTTPS, SSH oder git verwenden.
+Standardmäßig wird das geklonte Repository in einem neuen Ordner gespeichert.
 
 ## Ein bestehendes Projekt verteilen
 
