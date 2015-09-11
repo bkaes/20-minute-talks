@@ -73,6 +73,15 @@ From gitlab.fhrel.fgan.de:kaestner/20-minuten
 ```
 
 ## Änderungen einpflegen
+Bislang haben wir neue Änderungen heruntergeladen. Diese können wir nun wie gehabt `merge`n:
+
+```bash
+$ git checkout master
+$ git merge origin/master # Änderungen mergen
+```
+
+Da `git fetch` und `git merge` häufig hintereinander ausgeführt werden, gibt es
+den kombinierten Befehl `git pull`.
 
 ## Änderungen verteilen
 
@@ -80,3 +89,8 @@ From gitlab.fhrel.fgan.de:kaestner/20-minuten
 ## Dieses Projekt bearbeiten
 
 ## Eigene Projekte auf GitLab, Gitolite oder ähnlichem einpflegen
+
+## Weitere Ressourcen
+- https://www.atlassian.com/git/tutorials/syncing/git-fetch/
+- https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows
+- https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols
