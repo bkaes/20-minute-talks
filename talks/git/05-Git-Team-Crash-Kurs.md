@@ -7,7 +7,16 @@ links-as-notes: true
 # Eine kurze Rückblende
 ## Was ist Git?
 
+- ***verteilt***
+- versionsverwaltend
+- frei
+
 ## Was ist Git nicht?
+
+Git ist
+
+- kein Backup-System,
+- aber dennoch besser als gar nichts.
 
 ## Die wichtigsten Befehle
 
