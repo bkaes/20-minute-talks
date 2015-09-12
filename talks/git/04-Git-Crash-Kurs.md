@@ -63,7 +63,7 @@ Mit `git rm` und `git mv` werden Dateien gelöscht bzw. verschoben.
 ## Gegenwärtiger Status
 Mit `git status` wird der gegenwärtige Stand von git angezeigt:
 
-```
+```bash
 $ git status
 On branch master
 
@@ -79,7 +79,8 @@ Git listet hierbei geänderte, neue, unbeobachtete Dateien und ähnliches auf.
 
 ## Änderungen festlegen
 Änderungen, die mit `git add/rm/mv` vorgemerkt wurden, werden mit `git commit` zu einem _Commit_ zusammengefügt:
-```
+
+```bash
 $ git commit
 <es öffnet sich ein Editor zur Eingabe einer Nachricht>
 ```
@@ -97,7 +98,7 @@ Mittels `git log` können letzte Änderungen angesehen werden:
 
 . . .
 
-```
+```bash
 $ git log
 commit 430bbbabb752bf1352f6bdf75d29c5f98465ae8c
 Author: Benjamin Kaestner <benjamin.kaestner@gmail.com>
@@ -148,7 +149,7 @@ Ein Zweig ist im Grunde genommen ein Label, der auf einen Commit zeigt und sich 
 ## Informationen über Zweige
 Der Befehl `git branch` zeigt die gegenwärtigen lokalen Zweige und welcher Zweig gerade aktiv ist:
 
-```
+```bash
 $ git branch
 * git-talk
   master
@@ -159,7 +160,7 @@ In diesem Fall Es gibt zwei Zweige: `git-talk` und `master`. `git-talk` ist akti
 ## Wechseln zwischen Zweigen
 Um zu einem anderen Zweig zu wechseln, wird `git checkout <branch>` verwendet:
 
-```
+```bash
 $ git checkout master
 Switched to branch master
 
@@ -171,7 +172,7 @@ $ git branch
 ## Neuen Zweig erstellen
 Um einen neuen Zweig zu erstellen, wird `git branch <name>` verwendet:
 
-```
+```bash
 $ git branch temp
 $ git branch
   git-talk
@@ -179,13 +180,15 @@ $ git branch
   temp
 ```
 Um im neuen Zweig zu arbeiten kann `git checkout <name>` verwendete werden. Alternativ können diese Aktionen über
-```
+
+```bash
 git checkout -b <neuer-zweig>
 ```
+
 zusammengefasst werden.
 
 ## Beispiel
-```
+```bash
 $ git checkout -b fancy-feature
 $ <mehrere commits>
 ```
@@ -197,13 +200,13 @@ $ <mehrere commits>
 ## Merge
 Um Zweige zusammenzuführen verwendet man `git merge`:
 
-```
+```bash
 $ git checkout <zielbranch>
 $ git merge <branch-mit-aenderungen>
 ```
 
 ## Merge-Beispiel
-```
+```bash
 $ git checkout master
 $ git merge fancy-feature
 ```
