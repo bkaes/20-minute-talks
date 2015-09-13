@@ -91,6 +91,13 @@ $ git checkout master
 $ git pull origin master # fetch + merge
 ```
 
+## In Bildern (1)
+
+![Nach fetch, vor merge](talks/git/05-assets/branches-01.png)
+
+## In Bildern (2)
+![Nach fetch+merge, bzw. pull](talks/git/05-assets/branches-02.png)
+
 ## Änderungen verteilen
 Änderungen werden mit `git push` an das entfernte Verzeichnis geschickt:
 
@@ -105,6 +112,7 @@ mittels `-u` der entfernte Zweig des lokalen einstellen:
 ```bash
 $ git checkout git-talk-02
 $ git push -u origin git-talk-02
+
 ```
 ## Zusammenfassung der Befehle
 

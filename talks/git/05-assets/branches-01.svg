@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="branches-03.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path4009"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3991"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="589.13217"
+     inkscape:cy="599.09366"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4492"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3053"
+       transform="translate(21.428572,0)">
+      <rect
+         y="193.57512"
+         x="14.604477"
+         height="60.908508"
+         width="73.030342"
+         id="rect3003"
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.7006436;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text2987"
+         y="238.34578"
+         x="28.219257"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan2991"
+           y="238.34578"
+           x="28.219257"
+           sodipodi:role="line">C1</tspan></text>
+    </g>
+    <rect
+       inkscape:export-ydpi="71"
+       inkscape:export-xdpi="71"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       style="fill:#5aff9c;fill-opacity:1;stroke:#000000;stroke-width:1.12847781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect5073"
+       width="190.79036"
+       height="60.480675"
+       x="340.99191"
+       y="63.479359" />
+    <text
+       inkscape:export-ydpi="71"
+       inkscape:export-xdpi="71"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="373.64297"
+       y="108.0361"
+       id="text5075"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="373.64297"
+         y="108.0361"
+         id="tspan5077">master</tspan></text>
+    <path
+       inkscape:export-ydpi="71"
+       inkscape:export-xdpi="71"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:connector-curvature="0"
+       id="path5079"
+       d="m 436.38708,133.5554 0,43.58265"
+       style="fill:none;stroke:#000000;stroke-width:1.86406851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+    <rect
+       y="193.57512"
+       x="156.03305"
+       height="60.908508"
+       width="73.030342"
+       id="rect3060"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.7006436;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3062"
+       y="238.34578"
+       x="167.03064"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan3064"
+         y="238.34578"
+         x="167.03064"
+         sodipodi:role="line">C2</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.7006436;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3068"
+       width="73.030342"
+       height="60.908508"
+       x="276.03305"
+       y="193.57512" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="286.88416"
+       y="238.34578"
+       id="text3070"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="286.88416"
+         y="238.34578"
+         id="tspan3072">C3</tspan></text>
+    <rect
+       y="193.57512"
+       x="396.03305"
+       height="60.908508"
+       width="73.030342"
+       id="rect3076"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.7006436;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3078"
+       y="238.34578"
+       x="406.94275"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan3080"
+         y="238.34578"
+         x="406.94275"
+         sodipodi:role="line">C4</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.46945989px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 148.3367,224.02937 -31.6734,0"
+       id="path3090"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4424"
+       d="m 269.05099,224.02937 -31.6734,0"
+       style="fill:none;stroke:#000000;stroke-width:1.46945989px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.46945989px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 391.19385,224.02937 -31.6734,0"
+       id="path4426"
+       inkscape:connector-curvature="0" />
+    <rect
+       y="303.57513"
+       x="431.74734"
+       height="60.908508"
+       width="73.030342"
+       id="rect4439"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.7006436;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4441"
+       y="348.34576"
+       x="442.49103"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan4443"
+         y="348.34576"
+         x="442.49103"
+         sodipodi:role="line">C5</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.7006436;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4445"
+       width="73.030342"
+       height="60.908508"
+       x="551.74731"
+       y="303.57513" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="562.60822"
+       y="348.34579"
+       id="text4447"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="562.60822"
+         y="348.34579"
+         id="tspan4449">C6</tspan></text>
+    <rect
+       y="303.57513"
+       x="671.74731"
+       height="60.908508"
+       width="73.030342"
+       id="rect4451"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.7006436;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4453"
+       y="348.34579"
+       x="682.59845"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         id="tspan4455"
+         y="348.34579"
+         x="682.59845"
+         sodipodi:role="line">C7</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4463"
+       d="m 544.05099,334.02937 -31.6734,0"
+       style="fill:none;stroke:#000000;stroke-width:1.46945989px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.46945989px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 664.76528,334.02937 -31.6734,0"
+       id="path4465"
+       inkscape:connector-curvature="0" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4469"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion4471"><rect
+           id="rect4473"
+           width="155.71428"
+           height="101.42857"
+           x="373.57144"
+           y="282.36218" /></flowRegion><flowPara
+         id="flowPara4475" /></flowRoot>    <text
+       sodipodi:linespacing="125%"
+       id="text4482"
+       y="-445.80621"
+       x="652.21442"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:export-xdpi="71"
+       inkscape:export-ydpi="71"
+       transform="scale(1,-1)"><tspan
+         id="tspan4484"
+         y="-445.80621"
+         x="652.21442"
+         sodipodi:role="line" /></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.86406851px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 714.95851,420.28694 0,-43.58265"
+       id="path4486"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+       inkscape:export-xdpi="71"
+       inkscape:export-ydpi="71" />
+    <g
+       id="g4492"
+       transform="translate(-26.428572,0)">
+      <rect
+         transform="scale(1,-1)"
+         inkscape:export-ydpi="71"
+         inkscape:export-xdpi="71"
+         inkscape:export-filename="D:\Workspace\cpp\cpp-talks-german\talks\git\04-assets\branches-02.png"
+         style="fill:#5aff9c;fill-opacity:1;stroke:#000000;stroke-width:1.31682003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4480"
+         width="260.60202"
+         height="60.292332"
+         x="609.65753"
+         y="-490.2688" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4488"
+         y="470.47418"
+         x="623.81598"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="470.47418"
+           x="623.81598"
+           id="tspan4490"
+           sodipodi:role="line">origin/master</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.17857146px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 464.1199,302.27289 -21.88775,-41.25"
+       id="path4497"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
