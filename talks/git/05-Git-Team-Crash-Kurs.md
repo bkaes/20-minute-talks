@@ -33,6 +33,7 @@ Befehl     | Effekt
 `log`      | Änderungsprotokoll einsehen
 `rm`       | Löschen vormerken
 `show`     | Informationen zu einer Referenz anzeigen
+`status`   | Gegenwärtigen Status anzeigen
 `tag`      | Tags anzeigen oder erstellen
 
 (Referenz: Commit-Hash, Zweig, Tag,…)
