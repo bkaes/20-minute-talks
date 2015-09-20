@@ -17,7 +17,7 @@ pdf/%.pdf: talks/**/%.md
 	$(PANDOC) $(PFLAGS) -t $(PDFFORMAT) $^ -o $@
 
 handouts/%.pdf: talks/**/%.md
-	@mkdir -p pdf
+	@mkdir -p handouts
 	$(PANDOC) $(PFLAGS) -t latex $^ -o $@
 
 $(TALK_ARCHIVE): $(PDF_FILES)
@@ -33,6 +33,7 @@ archive: $(ALL_ARCHIVE)
 
 clean:
 	rm -rf pdf
+	rm -rf handouts
 	rm -f $(TALK_ARCHIVE)
 
 .PHONY: clean archive
