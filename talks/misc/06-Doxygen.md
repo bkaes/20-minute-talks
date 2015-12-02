@@ -24,6 +24,8 @@ const static int MAX_ELEMENTS = 256;
 ## Fakt
 **Jede** externe Dokumentation ist irgendwann hoffnungslos veraltet:
 
+### Auszug aus theoretischer README
+
 > Die Funktion `csd` dient zu `<Beschreibung, veraltet>`.
 >
 >
@@ -35,8 +37,8 @@ Probleme bei externer Dokumentation (in READMEs, TXT oder ähnlichem):
 
 - Veraltete Beschreibung
 - __Falsche__ Beschreibung
-- Falscher Gebrauch &rightarrow; Fehler &rightarrow; Frust &rightarrow; mehr Fehler
-  &rightarrow; mehr Frust &rightarrow; weniger Zeit für Dokumentation &rightarrow; falscher Gebrauch
+- Falscher Gebrauch `->` Fehler `->` Frust `->` mehr Fehler
+  `->` mehr Frust `->` weniger Zeit für Dokumentation `->` falscher Gebrauch
 
 # Lösung
 ## Dokumentation direkt am Code
